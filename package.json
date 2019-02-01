@@ -1,5 +1,5 @@
 {
-  "name": "@ambifi/react-native-video-controls",
+  "name": "react-native-video-controls",
   "version": "2.2.3",
   "description": "A set of GUI controls for the react-native-video component",
   "license": "MIT",
