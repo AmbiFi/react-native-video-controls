@@ -1210,7 +1210,7 @@ export default class VideoPlayer extends Component {
           />
           {this.renderError()}
           {this.renderLoader()}
-          {this.renderTopControls()}
+          {this.props.showTopControls !== false && this.renderTopControls()}
           {this.renderBottomControls()}
         </View>
       </TouchableWithoutFeedback>
